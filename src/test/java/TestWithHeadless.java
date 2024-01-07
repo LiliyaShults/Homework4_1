@@ -8,14 +8,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+
 public class TestWithHeadless {
     WebDriver driver;
     private Logger logger = LogManager.getLogger(TestWithHeadless.class);
-
-    @Test
-    public void Log(){
-        logger.info("this is info");
-    }
 
     @BeforeAll
     public static void driverSetup() {
@@ -27,7 +23,7 @@ public class TestWithHeadless {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless=new");
         driver = new ChromeDriver(options);
-        logger.info("Браузер открыт");
+        logger.info("Драйвер открыт");
     }
 
     @AfterEach
@@ -42,6 +38,7 @@ public class TestWithHeadless {
 
         driver.get("https://duckduckgo.com/");
         logger.info("Открыта поисковая страница");
+
         driver.findElement(By.cssSelector("[id=searchbox_input]"))
                 .sendKeys("ОТУС" + Keys.ENTER);
 
@@ -54,7 +51,7 @@ public class TestWithHeadless {
             System.out.println("False. Искомый текст не совпадает");
             logger.info("Искомый текст не совпадает");
         }
-
+        logger.info("Драйвер закрыт");
     }
 
 }

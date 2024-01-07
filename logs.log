@@ -1,3 +1,21 @@
 2024-01-07 09:16:10,669 INFO TestWithHeadless [main] Браузер открыт
 2024-01-07 09:16:13,209 INFO TestWithHeadless [main] Открыта поисковая страница
 2024-01-07 09:16:14,446 INFO TestWithHeadless [main] Искомый текст- совпадает
+2024-01-08 00:06:25,151 INFO TestWithHeadless [main] Браузер открыт
+2024-01-08 00:06:25,897 INFO TestWithHeadless [main] Открыта поисковая страница
+2024-01-08 00:06:27,633 INFO TestWithHeadless [main] Искомый текст- совпадает
+2024-01-08 00:07:19,082 INFO TestWithHeadless [main] Браузер открыт
+2024-01-08 00:07:19,918 INFO TestWithHeadless [main] Открыта поисковая страница
+2024-01-08 00:07:44,405 INFO TestWithHeadless [main] Браузер открыт
+2024-01-08 00:07:45,111 INFO TestWithHeadless [main] Открыта поисковая страница
+2024-01-08 00:07:46,756 INFO TestWithHeadless [main] Искомый текст- совпадает
+2024-01-08 00:08:42,794 INFO TestWithHeadless [main] Браузер открыт
+2024-01-08 00:08:44,332 INFO TestWithHeadless [main] Открыта поисковая страница
+2024-01-08 00:08:45,541 INFO TestWithHeadless [main] Искомый текст- совпадает
+2024-01-08 01:15:10,003 INFO TestWithHeadless [main] Браузер открыт
+2024-01-08 01:15:10,875 INFO TestWithHeadless [main] Открыта поисковая страница
+2024-01-08 01:15:12,145 INFO TestWithHeadless [main] Искомый текст- совпадает
+2024-01-08 01:16:12,036 INFO TestWithHeadless [main] Браузер открыт
+2024-01-08 01:16:12,784 INFO TestWithHeadless [main] Открыта поисковая страница
+2024-01-08 01:16:14,259 INFO TestWithHeadless [main] Искомый текст- совпадает
+2024-01-08 01:16:14,259 INFO TestWithHeadless [main] Драйвер закрыт
