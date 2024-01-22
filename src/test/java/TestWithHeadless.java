@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 
 public class TestWithHeadless {
-    WebDriver driver;
+    private WebDriver driver;
     private Logger logger = LogManager.getLogger(TestWithHeadless.class);
 
     @BeforeAll
